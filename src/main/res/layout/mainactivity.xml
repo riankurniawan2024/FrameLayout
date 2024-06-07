@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_gravity="center"
+        android:background="#008080"
+        android:contentDescription="todo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:background="#800080"
+        android:contentDescription="Todo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:background="#800080"
+        android:contentDescription="ToDo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100sp"
+        android:layout_height="200sp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="50sp"
+        android:background="#800080"
+        android:contentDescription="TODO"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:text="Rian Kurniawan"
+        tools:ignore="VisualLintBounds" />
+
+</LinearLayout>
